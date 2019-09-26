@@ -19,12 +19,12 @@ function clock() {
     var now = new Date();
 
     // (7) Set the digits for the minutes
-    figures[0].src = 'images/' + tendigit(now.getMinutes()) + '.png';
-    figures[1].src = 'images/' + onedigit(now.getMinutes()) + '.png';
+    figures[0].src = 'images/number/' + tendigit(now.getMinutes()) + '.png';
+    figures[1].src = 'images/number/' + onedigit(now.getMinutes()) + '.png';
 
     // (7) Set the digits for the seconds
-    figures[2].src = 'images/' + tendigit(now.getSeconds()) + '.png';
-    figures[3].src = 'images/' + onedigit(now.getSeconds()) + '.png';
+    figures[2].src = 'images/number/' + tendigit(now.getSeconds()) + '.png';
+    figures[3].src = 'images/number/' + onedigit(now.getSeconds()) + '.png';
 
 }
 

@@ -2,88 +2,10 @@
 body {
   background: black;
 }
-/*スーパーピッカー*/
-.cp_ipselect {
-	overflow: hidden;
-	width: 30%;
-	margin: 2em auto;
-	text-align: center;
+#wrapper {
+height: 30%;
+text-align:  center;   
 }
-.cp_ipselect select {
-	width: 100%;
-	padding-right: 1em;
-	cursor: pointer;
-	text-indent: 0.01px;
-	text-overflow: ellipsis;
-	border: none;
-	outline: none;
-	background: transparent;
-	background-image: none;
-	box-shadow: none;
-	-webkit-appearance: none;
-	appearance: none;
-}
-.cp_ipselect select::-ms-expand {
-    display: none;
-}
-.cp_ipselect.cp_sl01 {
-	position: relative;
-	border: 1px solid #000000;
-	border-radius: 2px;
-	background: black;
-}
-.cp_ipselect.cp_sl01::before {
-	position: absolute;
-	top: 0.8em;
-	right: 0.9em;
-	width: 0;
-	height: 0;
-	padding: 0;
-	content: '';
-	border-left: 6px solid transparent;
-	border-right: 6px solid transparent;
-	border-top: 6px solid #000000;
-	pointer-events: none;
-}
-.cp_ipselect.cp_sl01 select {
-	padding: 8px 38px 8px 8px;
-	color: #ff0000;
-}
-
-/*タイマー部品を中央寄せ*/
-.maintimer{
-
-  text-align:center;
-
-  border: 1px solid #aaa;
-  padding: 10px 20px;
-  
-  
-
-  float: center;
-}
-.teamleft{
-
-  text-align: center;
-
-  color:red;
-}
-
-.timer{
-
-  text-align: center;
-  margin-right: 10px auto;
-  margin-left: 50px auto;
-  float: center;
-
-  color: orange;
-}
-
-.teamright{
-
-   text-align: center;
-   margin-left: auto;
-    float:right;
- color: red;
-  
+img.figure {
+  height: 80%;
 }
