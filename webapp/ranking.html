@@ -1,0 +1,245 @@
+<link rel="stylesheet" type="text/css" href="css/ranking.css">
+<head>
+<header>
+    <center><h1>最近のおすすめ</h1></center>
+<div id="photo">
+<img src="images/gazou1.png" width="100%" height="300" alt="">
+<img src="images/gazou2.jpg" width="100%" height="300" alt="">
+<img src="images/gazou8.jpg" width="100%" height="300" alt="">
+<img src="images/gazou11.jpg" width="100%" height="300" alt="">
+<img src="images/gazou15.jpg" width="100%" height="300" alt="">
+<img src="images/gazou16.jpg" width="100%" height="300" alt="">
+</div>
+</header>
+
+<style type="text/css">
+#photo {
+    width: 570px;
+    height: 370px;
+    margin: 0 auto;
+    text-align:left;
+    text-align:right;
+    overflow: hidden;
+    overflow: hidden;
+    position: relative;
+}
+
+#photo img {
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+</style>
+
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script type="text/javascript">
+$(function(){
+    var setImg = '#photo';
+    var fadeSpeed = 1600;
+    var switchDelay = 5000;
+
+    $(setImg).children('img').css({opacity:'0'});
+    $(setImg + ' img:first').stop().animate({opacity:'1',zIndex:'20'},fadeSpeed);
+
+    setInterval(function(){
+        $(setImg + ' :first-child').animate({opacity:'0'},fadeSpeed).next('img').animate({opacity:'1'},fadeSpeed).end().appendTo(setImg);
+    },switchDelay);
+});
+</script>
+</head>
+<body>
+    <a name="Link"></a>
+    <a href="trend.html"><h2>ドラマ</h2></a>
+<div class="horizontal_scroll_wrap">
+   <ul class="scroll_lst">
+       <li class="scroll_item">
+           <a href="" class="scroll_item_inr">
+               <div class="scroll_item_thum">
+                   <img src="images/gazou1.png" alt="" width="220" height="158" class="alignnone size-medium wp-image-986" />
+               </div>
+               <div class="scroll_item_info">
+                   <h4 class="scroll_item_ttl"><center>今夜このまま</center></h4>
+               </div>
+           </a>
+       </li>
+      <li class="scroll_item">
+           <a href="" class="scroll_item_inr">
+               <div class="scroll_item_thum">
+                   <img src="images/gazou2.jpg" alt="" width="220" height="158" class="alignnone size-medium wp-image-986" />
+               </div>
+               <div class="scroll_item_info">
+                   <h4 class="scroll_item_ttl"><center>STAND-ALONE</center></h4>
+               </div>
+           </a>
+       </li>
+      <li class="scroll_item">
+           <a href="" class="scroll_item_inr">
+               <div class="scroll_item_thum">
+                   <img src="images/gazou3.jpg" alt="" width="220" height="158" class="alignnone size-medium wp-image-986" />
+               </div>
+               <div class="scroll_item_info">
+                   <h4 class="scroll_item_ttl"><center>アイノカタチ</center></h4>
+               </div>
+           </a>
+       </li>
+      <li class="scroll_item">
+           <a href="" class="scroll_item_inr">
+               <div class="scroll_item_thum">
+                   <img src="images/gazou5.jpg" alt="" width="220" height="158" class="alignnone size-medium wp-image-986" />
+               </div>
+               <div class="scroll_item_info">
+                   <h4 class="scroll_item_ttl"><center>まちがいさがし</center></h4>
+               </div>
+           </a>
+       </li>
+      <li class="scroll_item">
+           <a href="" class="scroll_item_inr">
+               <div class="scroll_item_thum">
+                   <img src="images/gazou6.jpg" alt="" width="220" height="158" class="alignnone size-medium wp-image-986" />
+               </div>
+               <div class="scroll_item_info">
+                   <h4 class="scroll_item_ttl"><center>白日</center></h4>
+               </div>
+           </a>
+       </li>
+       <li class="scroll_item">
+           <a href="" class="scroll_item_inr">
+               <div class="scroll_item_thum">
+                   <img src="images/gazou7.jpg" alt="" width="220" height="158" class="alignnone size-medium wp-image-986" />
+               </div>
+               <div class="scroll_item_info">
+                   <h4 class="scroll_item_ttl"><center>未完成</center></h4>
+               </div>
+           </a>
+       </li>
+</ul>
+</div>
+    <a href="trend1.html"><h2>アニメ</h2></a>
+    <a name="Link1"></a>
+<div class="horizontal_scroll_wrap">
+   <ul class="scroll_lst">
+       <li class="scroll_item">
+           <a href="" class="scroll_item_inr">
+               <div class="scroll_item_thum">
+                   <img src="images/gazou8.jpg" alt="" width="220" height="158" class="alignnone size-medium wp-image-986" />
+               </div>
+               <div class="scroll_item_info">
+                   <h4 class="scroll_item_ttl"><center>紅蓮華</center></h4>
+               </div>
+           </a>
+       </li>
+      <li class="scroll_item">
+           <a href="" class="scroll_item_inr">
+               <div class="scroll_item_thum">
+                   <img src="images/gazou9.jpg" alt="" width="220" height="158" class="alignnone size-medium wp-image-986" />
+               </div>
+               <div class="scroll_item_info">
+                   <h4 class="scroll_item_ttl"><center>ピースサイン</center></h4>
+               </div>
+           </a>
+       </li>
+      <li class="scroll_item">
+           <a href="" class="scroll_item_inr">
+               <div class="scroll_item_thum">
+                   <img src="images/gazou10.jpg" alt="" width="220" height="158" class="alignnone size-medium wp-image-986" />
+               </div>
+               <div class="scroll_item_info">
+                   <h4 class="scroll_item_ttl"><center>君の知らない物語</center></h4>
+               </div>
+           </a>
+       </li>
+      <li class="scroll_item">
+           <a href="" class="scroll_item_inr">
+               <div class="scroll_item_thum">
+                   <img src="images/gazou11.jpg" alt="" width="220" height="158" class="alignnone size-medium wp-image-986" />
+               </div>
+               <div class="scroll_item_info">
+                   <h4 class="scroll_item_ttl"><center>インフェルノ</center></h4>
+               </div>
+           </a>
+       </li>
+      <li class="scroll_item">
+           <a href="" class="scroll_item_inr">
+               <div class="scroll_item_thum">
+                   <img src="images/gazou12.jpg" alt="" width="220" height="158" class="alignnone size-medium wp-image-986" />
+               </div>
+               <div class="scroll_item_info">
+                   <h4 class="scroll_item_ttl"><center>三原色</center></h4>
+               </div>
+           </a>
+       </li>
+</ul>
+</div>
+   <a href="trend2.html"><h2>映画</h2></a>
+    <a name="Link2"></a>
+<div class="horizontal_scroll_wrap">
+   <ul class="scroll_lst">
+       <li class="scroll_item">
+           <a href="" class="scroll_item_inr">
+               <div class="scroll_item_thum">
+                   <img src="images/gazou13.jpg" alt="" width="220" height="158" class="alignnone size-medium wp-image-986" />
+               </div>
+               <div class="scroll_item_info">
+                   <h4 class="scroll_item_ttl"><center>pretender</center></h4>
+               </div>
+           </a>
+       </li>
+      <li class="scroll_item">
+           <a href="" class="scroll_item_inr">
+               <div class="scroll_item_thum">
+                   <img src="images/gazou14.jpg" alt="" width="220" height="158" class="alignnone size-medium wp-image-986" />
+               </div>
+               <div class="scroll_item_info">
+                   <h4 class="scroll_item_ttl"><center>愛にできることはまだあるかい</center></h4>
+               </div>
+           </a>
+       </li>
+      <li class="scroll_item">
+           <a href="" class="scroll_item_inr">
+               <div class="scroll_item_thum">
+                   <img src="images/gazou15.jpg" alt="" width="220" height="158" class="alignnone size-medium wp-image-986" />
+               </div>
+               <div class="scroll_item_info">
+                   <h4 class="scroll_item_ttl"><center>Let it go</center></h4>
+               </div>
+           </a>
+       </li>
+      <li class="scroll_item">
+           <a href="" class="scroll_item_inr">
+               <div class="scroll_item_thum">
+                   <img src="images/gazou16.jpg" alt="" width="220" height="158" class="alignnone size-medium wp-image-986" />
+               </div>
+               <div class="scroll_item_info">
+                   <h4 class="scroll_item_ttl"><center>瞬き</center></h4>
+               </div>
+           </a>
+       </li>
+      <li class="scroll_item">
+           <a href="" class="scroll_item_inr">
+               <div class="scroll_item_thum">
+                   <img src="images/gazou17.jpg" alt="" width="220" height="158" class="alignnone size-medium wp-image-986" />
+               </div>
+               <div class="scroll_item_info">
+                   <h4 class="scroll_item_ttl"><center>イエスタデイ</center></h4>
+               </div>
+           </a>
+       </li>
+       <li class="scroll_item">
+           <a href="" class="scroll_item_inr">
+               <div class="scroll_item_thum">
+                   <img src="images/gazou18.jpg" alt="" width="220" height="158" class="alignnone size-medium wp-image-986" />
+               </div>
+               <div class="scroll_item_info">
+                   <h4 class="scroll_item_ttl"><center>オールドファッション</center></h4>
+               </div>
+           </a>
+       </li>
+</ul>
+</div> 
+    
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.4/css/all.css">
+
+<div id="page_top"><a href="#"></a></div>
+
+</body>
